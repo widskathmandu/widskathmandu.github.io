@@ -1,33 +1,120 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 8px;
-  overflow: hidden;
-  background-color: #333;
+body {
+	margin: 0px;
 }
 
-li {
+/* Navigation */
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+	padding-top: 10px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+nav > ul > li > a{
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  background-color: green;
+}
+
+.logo_image {
   float: left;
-  padding-left: 8px;
-  padding-right: 8px;
-  color:white;
+  position: relative;
+  margin: 0px 10px 0px 0px;
 }
 
-li a {
-  display: block;
+.navigation-bar {
+  background:white;
+  overflow: hidden;
+  position: fixed;
+  height: 100px;
+  opacity: 1;
+  z-index: 9999;
+}
+
+.content{
+	position: relative;
+	top: 110px;
+	margin: auto;
+  	width: 50%;
+  	text-align: center;
+  	border: 15px solid green;
+}
+.wids_detail_section{
+	position: relative;
+	top: 220px;
+}
+
+.speakers{
+	position: relative;
+	top:300px;
+	margin: auto;
+  	width: 60%;
+  }
+
+
+.contact{
+	position: relative;
+	top: 400px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 20px 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-logo_image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  background-color: #f1f1f1;
+  height: 200px;
+  width: 170px;
 }
