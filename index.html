@@ -27,10 +27,49 @@
 		<h1>Women in Data Science Conference 2021</h1>
 		<h2>May 15 to May 17 NPT</h2>
 		<h1>WiDS Kathmandu 2021</h1>
+		<div class = "counter_Card" style="padding: 10px ">
+			<p style="font-size: 30px; color: blue">JOIN US IN</p>
+			<p id="demo" style="font-size: 40px; border: solid #287EC7; 
+								width: 300px; position: relative; margin: 0 auto;" ></p>
+		</div>
 	</div>
 
+	<script>
+		// Set the date we're counting down tos
+		var countDownDate = new Date("May 15, 2021 15:37:25").getTime();
+
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+  			// Get today's date and time
+  			var now = new Date().getTime();
+		    
+	  		// Find the distance between now and the count down date
+  			var distance = countDownDate - now;
+    	
+  			// Time calculations for days, hours, minutes and seconds
+  			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	    
+  			// Output the result in an element with id="demo"
+  			document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  				+ minutes + "m " + seconds + "s ";
+
+		    
+		  	// If the count down is over, write some text 
+  			if (distance < 0) {
+	    		clearInterval(x);
+    			document.getElementById("demo").innerHTML = "EXPIRED";
+  			}
+		}, 1000);
+	</script>
+
+
 	<!-- WiDS Detail Section -->
-	<div id = "WiDS_Details" class = wids_detail_section>
+	<div id = "WiDS_Details" class = "wids_detail_section" >
+		<p>WiDS Kathmandu is an independent event that is organized by Manisha Panta and Reecha Khanal as part of the annual WiDS Worldwide conference organized by Stanford University and an estimated 150+ locations worldwide, which features outstanding women doing outstanding work in the field of data science. All genders are invited to attend all WiDS Worldwide conference events.</p>
 	</div>
 
 	<!-- SPEAKERS -->

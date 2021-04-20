@@ -56,7 +56,10 @@ nav > ul > li > a:hover {
   	width: 50%;
   	text-align: center;
   	border: 15px solid green;
+  	justify-content: center;
 }
+
+
 .wids_detail_section{
 	position: relative;
 	top: 220px;
