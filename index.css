@@ -66,13 +66,17 @@ nav > ul > li > a:hover {
 	position: relative;
 	top:300px;
 	margin: auto;
-  	width: 60%;
-  }
+  	width: 75%;
+  	align-items: center;
+}
 
 
 .contact{
 	position: relative;
 	top: 400px;
+	margin: auto;
+  	width: 75%;
+  	align-items: center;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -90,7 +94,7 @@ nav > ul > li > a:hover {
 
 /* Remove extra left and right margins, due to padding */
 .row {
-	align-items: center;
+	
 }
 
 /* Clear floats after the columns */
