@@ -107,7 +107,7 @@ label{
 
 .contact-header{
   position: relative;
-  top: 310px;
+  top: 370px;
   margin: auto;
 }
 
@@ -144,10 +144,15 @@ label{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   background-color: #f1f1f1;
-  height: 300px;
+  height: 400px;
   padding: 10px;
   font-style: normal;
-  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.image-container{
+  padding: 2px 16px;
 }
 
 .text-card{
@@ -161,7 +166,7 @@ label{
 }
 
 .image-card{
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
   	background: white;
   	width: 30%;
@@ -192,7 +197,7 @@ table {
   align-items: center;
 }
 
-.button{
+.register-button{
   background-color: #53284f;
   border: none;
   color: white;
@@ -204,4 +209,69 @@ table {
   margin: 4px 2px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.ambassadors-header{
+  position: relative;
+  top: 310px;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.ambassador-card{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 600px;
+  text-align: center;
+  background-color: white;
+  font-style: normal;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.ambassador-card-container{
+  padding: 2px 16px;
+}
+
+/* Float four columns side by side */
+.ambassador-column {
+  float: left;
+  width: 35%;
+  padding: 20px 20px;
+}
+
+.ambassador-row{
+  margin: auto;
+  width: 55%;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.ambassador-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
