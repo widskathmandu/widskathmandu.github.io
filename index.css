@@ -47,11 +47,12 @@ nav > ul > li > a:hover {
   height: 100px;
   opacity: 1;
   z-index: 9999;
+  width: 100%
 }
 
 .content{
 	position: relative;
-	top: 110px;
+	top: 120px;
 	margin: auto;
   	width: 50%;
   	text-align: center;
@@ -62,12 +63,12 @@ nav > ul > li > a:hover {
 
 .wids_detail_section{
 	position: relative;
-	top: 200px;
+	top: 140px;
 }
 
 .speakers{
 	position: relative;
-	top:710px;
+	top: 300px;
 	margin: auto;
   width: 75%;
 	align-items: center;
@@ -75,16 +76,14 @@ nav > ul > li > a:hover {
 
 .Agenda{
   position: relative;
-  top:900px;
+  top:350px;
   margin: auto;
 }
 
-.contact{
-	position: relative;
-	top: 1100px;
-	margin: auto;
-  width: 75%;
-  align-items: center;
+.contact-header{
+  position: relative;
+  top: 450px;
+  margin: auto;
 }
 
 /* On mouse-over, add a deeper shadow */
