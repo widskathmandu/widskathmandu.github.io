@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+  font-family: Helvetica;
 }
 
 /* Navigation */
@@ -17,13 +18,13 @@ nav ul{
 
 nav ul li{
 	padding-top: 10px;
-    display: inline-block;
-    list-style-type: none;
-    font-size: 25px;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 25px;
 }
 
 nav > ul > li > a{
-    color: black;
+    color: #000000;
     display: block;
     line-height: 2em;
     padding: 0.5em 1em;
@@ -31,7 +32,7 @@ nav > ul > li > a{
 }
 
 nav > ul > li > a:hover {
-  background-color: green;
+  background-color: #00B140;
 }
 
 .logo_image {
@@ -51,12 +52,12 @@ nav > ul > li > a:hover {
 }
 
 .content{
-	position: relative;
-	top: 120px;
-	margin: auto;
-  	width: 50%;
+    position: relative;
+    top: 120px;
+    margin: auto;
+    width: 50%;
   	text-align: center;
-  	border: 15px solid green;
+  	border: 15px solid #00b140;
   	justify-content: center;
 }
 
@@ -125,6 +126,8 @@ nav > ul > li > a:hover {
   background-color: #f1f1f1;
   height: 300px;
   padding: 10px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .text-card{
