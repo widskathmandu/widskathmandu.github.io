@@ -67,19 +67,24 @@ nav > ul > li > a:hover {
 
 .speakers{
 	position: relative;
-	top:700px;
+	top:710px;
 	margin: auto;
-  	width: 75%;
-  	align-items: center;
+  width: 75%;
+	align-items: center;
 }
 
+.Agenda{
+  position: relative;
+  top:900px;
+  margin: auto;
+}
 
 .contact{
 	position: relative;
-	top: 900px;
+	top: 1100px;
 	margin: auto;
-  	width: 75%;
-  	align-items: center;
+  width: 75%;
+  align-items: center;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -87,17 +92,11 @@ nav > ul > li > a:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
 /* Float four columns side by side */
 .column {
   float: left;
   width: 20%;
   padding: 20px 20px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {
-	
 }
 
 /* Clear floats after the columns */
@@ -119,11 +118,9 @@ nav > ul > li > a:hover {
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  
   text-align: center;
   background-color: #f1f1f1;
   height: 300px;
-  
 }
 
 .text-card{
@@ -151,4 +148,19 @@ nav > ul > li > a:hover {
 }
 .image-card: hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+th, td {
+  padding: 25px;
+}
+
+th{
+  text-align: left;
+}
+
+table {
+  border-spacing: 5px;
+  margin: auto;
+  width: 75%;
+  align-items: center;
 }
