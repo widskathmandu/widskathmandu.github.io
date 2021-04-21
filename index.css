@@ -84,13 +84,13 @@ label{
 
 .wids_detail_section{
 	position: relative;
-	top: 140px;
+	top: 120px;
 }
 
 .speaker-header{
   position: relative;
-  top: 300px;
-  
+  top: 240px;
+  margin: auto;
 }
 
 .speakers{
@@ -101,13 +101,13 @@ label{
 
 .Agenda{
   position: relative;
-  top:350px;
+  top:280px;
   margin: auto;
 }
 
 .contact-header{
   position: relative;
-  top: 600px;
+  top: 310px;
   margin: auto;
 }
 
