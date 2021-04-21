@@ -59,8 +59,28 @@ nav > ul > li > a:hover {
   	text-align: center;
   	border: 15px solid #00b140;
   	justify-content: center;
+    padding: 20px;
 }
 
+ .countdown{
+  display: inline-block;
+  font-size: 35px;
+  width: 50px;
+  margin: 0 auto; 
+  padding: 13px; 
+  background-color: #e98300; 
+  border: 1px solid black;
+  position: relative;
+ }
+
+label{
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+  font-weight: bold;
+}
+ 
 
 .wids_detail_section{
 	position: relative;
