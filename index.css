@@ -66,10 +66,14 @@ nav > ul > li > a:hover {
 	top: 140px;
 }
 
+.speaker-header{
+  position: relative;
+  top: 300px;
+  
+}
+
 .speakers{
-	position: relative;
-	top: 300px;
-	margin: auto;
+  margin: auto;
   width: 75%;
 	align-items: center;
 }
@@ -120,6 +124,7 @@ nav > ul > li > a:hover {
   text-align: center;
   background-color: #f1f1f1;
   height: 300px;
+  padding: 10px;
 }
 
 .text-card{
