@@ -88,12 +88,12 @@ nav > ul > li > a:hover {
   width: 6em;
   margin-right: .5em;
   font-weight: bold;
-  
+
 }
 
 .wids_detail_section{
 	position: relative;
-	top: 120px;
+	top: 20px;
 }
 
 .wids_details_content{
@@ -119,13 +119,17 @@ nav > ul > li > a:hover {
 
 .speaker-header{
   position: relative;
-  top: 240px;
+  top:5px;
   margin: auto;
 }
 
 .speakers{
   margin: auto;
 	align-items: center;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .Agenda{
@@ -148,10 +152,9 @@ nav > ul > li > a:hover {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
-  padding: 0px 10px;
+  width: 15%;
+  padding: 10px 10px;
 }
-
 
 /* Remove extra left and right margins, due to padding in columns */
 .row,  {margin: 0 -5px;}
@@ -184,12 +187,13 @@ nav > ul > li > a:hover {
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
   text-align: center;
   background-color: white;
   font-style: normal;
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  padding-bottom: 15px;
+  height: 400px;
+  border-radius: 15px;
 }
 
 th, td {
