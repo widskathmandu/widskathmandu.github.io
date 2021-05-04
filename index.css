@@ -265,7 +265,6 @@ table {
   padding: 2px 16px;
 }
 
-/* Float four columns side by side */
 .ambassador-column {
   float: left;
   width: 35%;
@@ -311,4 +310,37 @@ button {
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+
+
+.partner-column {
+  float: left;
+  width: 15%;
+  padding: 20px 20px;
+}
+
+.hidden-text {
+  visibility: hidden;
+  font-family: Helvitica;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.partner-column:hover .hidden-text{
+    visibility: visible;
+}
+
+.partner-row{
+  margin: auto;
+  width: 55%;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.partner-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
