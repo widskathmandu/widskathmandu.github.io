@@ -342,7 +342,6 @@ button:hover, a:hover {
 
 .partner-column {
   float: left;
-  width: 75%;
   padding: 20px 20px;
 }
 
@@ -358,7 +357,7 @@ button:hover, a:hover {
 }
 .partner-info{
   float: left;
-  width: 60%;
+  width: 80%;
   padding-left: 15px;
   font-family: Helvetica;
   font-style: Normal;
