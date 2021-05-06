@@ -1,35 +1,53 @@
+/* CSS for the whole body */
 body {
 	margin: 0px;
   font-family: Helvetica;
 }
 
-/* Navigation */s
+/*Navigation Bar*/
+.navigation-bar {
+  background:white;
+  position: fixed;
+  height: 15%;
+  opacity: 1;
+  z-index: 9999;
+  width: 100%;
+}
+
+/*Logo Image in the Navigation Bar*/
+.logo_image {
+  float: left;
+  position: relative; 
+}
+
 nav{
-    float: right;
-    margin: 0;
-    overflow:hidden;
-    text-align: center;
+  overflow: hidden;
 }
 
 nav ul{
+    float: right;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav ul li{
-	padding-top: 25px;
+	padding-top: 10px;
+  padding-bottom: 10px;
   display: inline-block;
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 nav > ul > li > a{
-    color: #000000;
-    display: block;
-    line-height: 3em;
-    padding: 0.5em 1em;
-    text-decoration: none;
+  color: #000000;
+  display: block;
+  line-height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 nav > ul > li > a:hover {
@@ -37,22 +55,7 @@ nav > ul > li > a:hover {
   color: white;
 }
 
-.logo_image {
-  float: left;
-  position: relative;
-  margin: 0px 10px 0px 0px;
-}
-
-.navigation-bar {
-  background:white;
-  overflow: hidden;
-  position: fixed;
-  height: 100px;
-  opacity: 1;
-  z-index: 9999;
-  width: 100%
-}
-
+/*Below the Navigation Bar, Page Content starts here*/
 .content{
   position: relative;
   top: 120px;
