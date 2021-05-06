@@ -1,0 +1,48 @@
+/*Below the Navigation Bar, Page Content starts here*/
+.content{
+  position: relative;
+  top: 120px;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  border: 5px solid #00b140;
+  padding: 20px;
+}
+
+.counter_card{
+  padding-bottom: 12px;
+}
+
+.countdown{
+  display: inline-block;
+  font-size: 25px;
+  width: 45px;
+  margin: 0 auto; 
+  padding: 10px; 
+  background-color: #e98300; 
+  border: 1px solid #e98300;
+  position: relative;
+  white-space: nowrap;
+ }
+
+.label1{
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+  font-weight: bold;
+}
+
+.register-button{
+  background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
