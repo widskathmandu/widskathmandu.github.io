@@ -1,0 +1,52 @@
+
+.educational-partners-header{
+  position: relative;
+  top:2px;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.partner-row{
+  margin: auto;
+  width: 75%;
+  align-items: center;
+}
+
+.partner-column {
+  float: left;
+  padding: 20px 20px;
+}
+
+.partner-image{
+  float: left;
+  width: 18%;
+  padding-right: 15px;
+}
+.partner-info{
+  float: left;
+  width: 75%;
+  padding-left: 15px;
+  font-family: Helvetica;
+  font-style: Normal;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #F5F5F5;
+  font-style: normal;
+  text-align: left;
+  font-family: "Helvetica";
+  line-height: 18px;
+}
+
+.partner-info ul{
+	line-height: 7px;
+	text-align: left
+}
+
+/* Clear floats after the columns */
+.partner-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

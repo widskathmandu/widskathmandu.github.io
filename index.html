@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="index.css"/>
   <link rel="stylesheet" href="navigationBar.css"/>
   <link rel="stylesheet" href="contentBelowNav.css"/>
+  <link rel="stylesheet" href="widsDetails.css"/>
+  <link rel="stylesheet" href="speakerSection.css"/>
+  <link rel="stylesheet" href="agendaSection.css"/>
+  <link rel="stylesheet" href="educationalPartnersSection.css"/>
 </head>
 <body>
 	<div id = "home"></div>
@@ -26,8 +30,8 @@
 	<!-- Page Content Starts here -->
 	<div class="content">
 		<h2>Women in Data Science (WiDS) Kathmandu 2021</h2>
-		<h3>May 29 - May 30 NPT (Jestha 15 and 16)</h3>
-    <h3>May 28 - May 30 CST</h3>
+		<h3 style="line-height: 12px;">May 29 - May 30 NPT (Jestha 15 and 16)</h3>
+    <h3 style="line-height: 12px;">May 28 - May 30 CST</h3>
      
 		<div class = "counter_card">
       <label class="label1"><h3 id="days" class="countdown"></h3>Days</label>
@@ -43,16 +47,17 @@
   <div id = "WiDS_Details" class = "wids_detail_section" >
       <br/><em/><br/><em/><br/><em/><br/><em/>
       <div class="wids_details_content">
-            <br/><em/><br/><em/>
+            <br/><em/>
             <div class="speaker_attendees_count">
-                <label class="detail_count" ><h3 style="display: inline-block;margin: 0 auto;   padding: 9px; font-size: 60px; width: 70px; position: relative;color: green;">17</h3>Speakers</label>
-                <label class="detail_count" ><h3 style="display: inline-block;margin: 0 auto;   padding: 9px; font-size: 60px; width: 70px; position: relative;color: green;">50+</h3> Attendees</label>
-                <label class="detail_count" ><h3 style="display: inline-block;margin: 0 auto;   padding: 9px; font-size: 60px; width: 70px; position: relative;color: green;">3</h3> Days</label>
+                <label class="detail_count" ><h3 class = "detail_count_number" >14</h3>Speakers</label>
+                <label class="detail_count" ><h3 class = "detail_count_number" >50+</h3> Attendees</label>
+                <label class="detail_count" ><h3 class = "detail_count_number" >3</h3> Days</label>
             </div>
-            <br/><em/><br/><em/>
+            <br/><em/>
             <div class="details_text">
                 <p><strong>WiDS Kathmandu 2021</strong> is an independent event that is organized by Manisha Panta and Reecha Khanal as part of the annual <a href='https://www.widsconference.org/' style="color:green; text-decoration: None;">WiDS Worldwide conference</a> organized by Stanford University and an estimated 150+ locations worldwide, which features outstanding women doing outstanding work in the field of data science. All genders are invited to attend all WiDS Worldwide conference events.</p>
             </div>
+            <br/><em/>
             <a class = "about-wids-global-button" href='https://www.widsconference.org/' target="_blank">About WiDS Global</a>
             <br/><em/><br/><em/><br/><em/>
       </div>
@@ -61,49 +66,43 @@
 	<!-- SPEAKERS -->
 	<div id = "Speakers" class = "speaker-header">
     <br/><em/><br/><em/><br/><em/><br/><em/>
+    
     <h2 style = "font-style: normal; font-size:30px; color:white; background-color: #75787B; padding: 20px; text-align: center"> SPEAKERS </h2>
-
     <br><em>
+
     <div class = "speakers">
       <div class="row">
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Aditi_Gajurel.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Aditi Gajurel</h2>
-              <p class="title">Machine Learning Engineer<br/>
-              Fuse Machines</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Aditi_Gajurel.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Aditi Gajurel</h2>
+            <p class="title">Machine Learning Engineer<br/>
+            Fuse Machines</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Archana_Bhattarai.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Archana Bhattarai</h2>
-              <p class="title">Senior Search Relevance Engineer<br/>
-              Apple</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Archana_Bhattarai.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Archana Bhattarai</h2>
+            <p class="title">Senior Search Relevance Engineer<br/>
+            Apple</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Asmita_Bhattarai.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Asmita Bhattarai</h2>
-              <p class="title">GIS Analyst, Geospatial Data Science<br/>
-              University of Utah</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Asmita_Bhattarai.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Asmita Bhattarai</h2>
+            <p class="title">GIS Analyst, Geospatial Data Science<br/>
+            University of Utah</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
             <div class = "image-container">
               <img src="./profiles/Dovan_Rai.jpg" style="width: 100%">
             </div>
@@ -112,161 +111,104 @@
               <p class="title">Independent Researcher<br/>
               AI in Education</p>
             </div>
+        </div>
+        <div class="column">
+          <div class = "image-container">
+            <img src="./profiles/Elina_Pradhan.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Elina Pradhan</h2>
+            <p class="title">Economist<br/>
+            World Bank Group</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Elina_Pradhan.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Elina Pradhan</h2>
-              <p class="title">Economist<br/>
-              World Bank Group</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Jwala_Dhamala.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Jwala Dhamala</h2>
+            <p class="title">Research Scientist<br/>
+            Amazon (Alexa)</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Huma_Bokkhim.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Huma Bokkhim</h2>
-              <p class="title">Senior Food Researcher<br/>
-              Government of Nepal</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/pratima_upretee.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Pratima Upretee</h2>
+            <p class="title">Research Associate<br/>
+            NAAMII</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Jwala_Dhamala.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Jwala Dhamala</h2>
-              <p class="title">Research Scientist<br/>
-              Amazon (Alexa)</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/reshma_shrestha.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Reshma Shrestha</h2>
+            <p class="title">Assistant Professor<br/>
+            Kathmandu University (KU)</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/liza_maharjan.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name"> Dr. Liza Maharjan</h2>
-              <p class="title">Data Consultant<br/>
-              World Bank Group</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Rubina_Mahato.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Rubeena Mahato</h2>
+            <p class="title">Development Policy Expert<br/>
+            UNICEF</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/pratima_upretee.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Pratima Upretee</h2>
-              <p class="title">Research Associate<br/>
-              NAAMII</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Sabita_Acharya.jpg" style="width: 100%">
           </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/reshma_shrestha.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Reshma Shrestha</h2>
-              <p class="title">Assistant Professor<br/>
-              Kathmandu University (KU)</p>
-            </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Sabita Acharya</h2>
+            <p class="title">R&D Scientist, NLP<br/>
+            Procter & Gamble</p>
           </div>
         </div>
   			<div class="column">
-    			<div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Rojina_Adhikari.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-    				  <h2 class = "name">Dr. Rojina Adhikari</h2>
-    				  <p class="title">Telecom Engineer<br/>
-              Qualcomm Technologies</p>
-            </div>
-    			</div>
-  			</div>
-        <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Rubina_Mahato.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Rubeena Mahato</h2>
-              <p class="title">Development Policy Expert<br/>
-              UNICEF</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/Samrachana_Adhikari.jpg" style="width: 100%">
           </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Sabita_Acharya.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Sabita Acharya</h2>
-              <p class="title">R&D Scientist, NLP<br/>
-              Procter & Gamble</p>
-            </div>
-          </div>
-        </div>
-  			<div class="column">
-    			<div class="card">
-            <div class = "image-container">
-              <img src="./profiles/Samrachana_Adhikari.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-    				  <h2 class = "name">Dr. Samrachana Adhikari</h2>
-    				  <p class="title">Assistant Professor of Biostatistics, School of Medicine<br/>
+          <div class="text-container">
+    				<h2 class = "name">Dr. Samrachana Adhikari</h2>
+    			  <p class="title">Assistant Professor of Biostatistics, School of Medicine<br/>
               New York University</p>
-            </div>
-    			</div>
+          </div>
   			</div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/sangita_sharma.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Sangita Sharma</h2>
-              <p class="title">Project Manager<br/>
-              Leapfrog Technolgies</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/sangita_sharma.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Sangita Sharma</h2>
+            <p class="title">Project Manager<br/>
+            Leapfrog Technolgies</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/shruti_shrestha.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Shruti Shrestha</h2>
-              <p class="title">Research Assistant<br/>NAAMI</p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/shruti_shrestha.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Shruti Shrestha</h2>
+            <p class="title">Research Assistant<br/>NAAMI</p>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <div class = "image-container">
-              <img src="./profiles/smrittee_kala_panta.jpg" style="width: 100%">
-            </div>
-            <div class="text-container">
-              <h2 class = "name">Dr. Smrittee Kala Panta</h2>
-              <p class="title">Director of Planning and Outreach<br/>
-              Samridhhi Argriculture Research and Development </p>
-            </div>
+          <div class = "image-container">
+            <img src="./profiles/smrittee_kala_panta.jpg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class = "name">Dr. Smrittee Kala Panta</h2>
+            <p class="title">Director of Planning and Outreach<br/>
+            Samridhhi Argriculture Research and Development </p>
           </div>
         </div>
 		</div>
@@ -274,18 +216,12 @@
 	</div>
 
 <!-- Agenda -->
-  <div id = "agenda" class="Agenda">
+  <div id = "agenda" class="agenda">
     <br/><em/><br/><em/><br/><em/><br/><em/><br/><em/>
-    <!--
-    <h2 id="agenda-header" 
-        style = "font-style: normal; font-size:30px; color:white; background-color: #75787B; padding: 23px; text-align: center"> AGENDA </h2>
-    <br><em>
-    -->
-    <h2 id="agenda-header" 
-        style = "font-style: normal; font-size:30px; color:white; background-color: #e98300; padding: 12px; text-align: center; margin-bottom: 0"> AGENDA </h2>
+    <h2 class="agenda-header"> AGENDA </h2>
 
-      <table class = "agenda-table" style="font-style: normal; margin-top: 0;">
-          <tr style="color: #ecf0f1; background: #e98300;" >
+      <table class = "agenda-table">
+          <tr style="color: #ecf0f1; background: #e98300;">
               <th class = "date-section">
                 <h1 style="font-size: 24px">Date</h1>
               </th>
@@ -598,8 +534,7 @@
           </div>
           <div class = "partner-info">
             <p> <strong style="color: green;"><a style="color:green;text-decoration: none; "
-              href="https://www.theclickreader.com/" target="_blank">The Click Reader</a></strong> is an education platform, focused on providing data science education to students all around the globe.</p>
-            <p>As a educational partner for WiDS Kathmandu 2021, The Click Reader is providing all WiDS Kathmandu 2021 attendees with a special coupon code for free access to following amazing data science courses:
+              href="https://www.theclickreader.com/" target="_blank">The Click Reader</a></strong> is an education platform, focused on providing data science education to students all around the globe. As a educational partner for WiDS Kathmandu 2021, The Click Reader is providing all WiDS Kathmandu 2021 attendees with a special coupon code for free access to following amazing data science courses:
              <ul><a href="https://www.udemy.com/course/full-stack-data-science-course/" target="_blank" style="text-decoration: none;">Full Stack Data Science Course - Become a Data Scientist</a></ul>
              <ul><a href="https://www.udemy.com/course/data-science-for-sports/" target="_blank" style="text-decoration: none;">Data Science for Sports - Sports Analytics and Visualization</a></ul>
              <ul><a href="https://www.udemy.com/course/data-science-for-business-analytics-and-intelligence/"target="_blank" style="text-decoration: none;">Data Science for Business Analytics and Intelligence</a></ul>
