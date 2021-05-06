@@ -3,7 +3,7 @@ body {
   font-family: Helvetica;
 }
 
-/* Navigation */
+/* Navigation */s
 nav{
     float: right;
     margin: 0;
@@ -57,7 +57,7 @@ nav > ul > li > a:hover {
   position: relative;
   top: 120px;
   margin: auto;
-  width: 50%;
+  width: 75%;
   text-align: center;
   border: 5px solid #00b140;
   justify-content: center;
@@ -110,7 +110,7 @@ nav > ul > li > a:hover {
 .details_text{
   text-align: center;
   margin: auto;
-  width: 40%;
+  width: 70%;
   font-style:normal;
   font-family: "Helvetica";
   line-height: 25px;
@@ -124,12 +124,12 @@ nav > ul > li > a:hover {
 }
 
 .speakers{
-  margin: 0 auto;
+  margin: auto;
 	align-items: center;
-  width:60%;
+  width:75%;
   text-align: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -161,19 +161,21 @@ nav > ul > li > a:hover {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 20%;
-  padding: 10px 10px;
+  width: 18%;
+  padding: 0px 10px;
 }
 
 .name{
   font-size: 16px;
-  font-family: Helvetica Bold;
+  font-family: "Helvetica";
+  color: #231F20;
 }
 .title{
   font-style:normal;
-  font-family: Helvetica Bold;
+  font-family: "Helvetica";
   line-height: 20px;
-  font-size: 15px;
+  font-size: 14px;
+  color: #231F20;
 }
 .text-container{
     padding: 5px;
@@ -207,13 +209,25 @@ nav > ul > li > a:hover {
 .date-section{
     text-align: left;
     padding-left: 25px;
-    font-size: 12px;
+    padding-right: 25px;
+    padding-top:0px;
+    padding-bottom:0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    white-space: nowrap;
+    font-family: "Helvetica";
+    font-weight: normal;
 }
 
 .date-section:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.date-section h2{
+  line-height: 11px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #231F20;
 }
 
 .talk-section{
@@ -222,7 +236,17 @@ nav > ul > li > a:hover {
     font-size: 12px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
 
+.talk-section h2{
+  font-weight: bold;color: #00b140;font-size: 16px
+}
+
+.talk-section h3{
+  line-height: 5px;
+  font-weight: normal;
+  color: #231F20;
+  /*color: #00b140;*/
 }
 
 .talk-section:hover{
@@ -273,7 +297,6 @@ nav > ul > li > a:hover {
   margin: auto;
   display: inline-block;
   width: 100%;
-
 }
 
 .ambassadors-header{
@@ -335,7 +358,6 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
-
 .partner-column {
   float: left;
   padding: 20px 20px;
@@ -343,7 +365,7 @@ button:hover, a:hover {
 
 .partner-row{
   margin: auto;
-  width: 55%;
+  width: 75%;
   align-items: center;
 }
 .partner-image{
