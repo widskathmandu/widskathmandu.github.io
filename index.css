@@ -8,7 +8,7 @@ body {
 .navigation-bar {
   background:white;
   position: fixed;
-  height: 10%;
+  height: 95px;
   opacity: 1;
   z-index: 9999;
   width: 100%;
@@ -18,7 +18,7 @@ body {
 .logo_image {
   float: left;
   position: relative;
-  width: 25%;
+  width: 250px;
   height: 100%;
 }
 
