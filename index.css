@@ -69,15 +69,20 @@ nav > ul > li > a:hover {
   padding: 20px;
 }
 
- .countdown{
+.counter_card{
+
+}
+
+.countdown{
   display: inline-block;
-  font-size: 30px;
-  width: 40px;
+  font-size: 25px;
+  width: 45px;
   margin: 0 auto; 
-  padding: 9px; 
+  padding: 10px; 
   background-color: #e98300; 
   border: 1px solid #e98300;
   position: relative;
+  white-space: nowrap;
  }
 
 .label1{
