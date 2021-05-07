@@ -1,7 +1,7 @@
 
 .educational-partners-header{
   position: relative;
-  top:2px;
+  top:1px;
   margin: auto;
   display: inline-block;
   width: 100%;
@@ -16,17 +16,20 @@
 .partner-column {
   float: left;
   padding: 20px 20px;
+  display: inline-block;
+  justify-content: center;
 }
 
 .partner-image{
   float: left;
-  width: 18%;
-  padding-right: 15px;
+  width: 15%;
+  padding-right: 25px;
 }
 .partner-info{
   float: left;
-  width: 75%;
-  padding-left: 15px;
+  width: 70%;
+  height: 170px;
+  padding: 15px;
   font-family: Helvetica;
   font-style: Normal;
   font-size: 15px;
