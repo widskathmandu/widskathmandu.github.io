@@ -8,7 +8,7 @@
 
 .ambassador-row{
   margin: auto;
-  width: 55%;
+  width: 50%;
   align-items: center;
 }
 
@@ -21,7 +21,7 @@
 
 .ambassador-column {
   float: left;
-  width: 30%;
+  width: 40%;
   padding: 20px 20px;
 }
 
@@ -29,11 +29,12 @@
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  height: 500px;
+  height: auto;
   text-align: center;
   background-color: white;
   font-style: normal;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 10px; /* 5px rounded corners */
+  padding: 5px;
 }
 
 .ambassador-card-container{

@@ -57,11 +57,12 @@
 }
 
 .talk-section h2{
-  font-weight: bold;color: #00b140;font-size: 16px
+  font-weight: bold;
+  color: #00b140;
+  font-size: 16px
 }
 
 .talk-section h3{
-  line-height: 5px;
   font-weight: normal;
   color: #231F20;
   /*color: #00b140;*/
