@@ -72,6 +72,21 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+@media screen  and (max-width: 768px) and (min-width: 481px){
+  .agenda-table {
+    width: 90%;
+  }
+
+  .date-section {
+    padding: 0 2px 0 12px;
+  }
+
+  .talk-section {
+    padding-left: 12px;
+  }
+  
+}
+
 .agenda-button-all{
   background-color: #53284f;
   border: none;
