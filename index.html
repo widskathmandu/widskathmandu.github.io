@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="agendaSection.css"/>
   <link rel="stylesheet" href="educationalPartnersSection.css"/>
   <link rel="stylesheet" href="ambassadorsSection.css"/>
+  <link rel="stylesheet" href="volunteerSection.css"/>
+  <script type="text/javascript" src="agendaButton.js"></script>
   <script
     src="https://kit.fontawesome.com/3fdf0f105a.js"
     crossorigin="anonymous">
@@ -29,13 +31,14 @@
         <i class="fas fa-bars"></i>
       </button> -->
 			<ul>              
-  				<li><a href="#home">Home</a></li>
-  				<li><a href="#WiDS_Details">WiDS Details</a></li>
-  				<li><a href="#Speakers">Speakers</a></li>
-          <li><a href="#agenda">Agenda</a></li>
-          <li><a href="#Educational-Partners">Partners</a></li>
-          <li><a href="#Ambassadors" class="ambassadors">Our Ambassadors</a></li>
-  				<li><a href="#Contact" class="contactUs">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#WiDS_Details">WiDS Details</a></li>
+        <li><a href="#Speakers">Speakers</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#Educational-Partners">Partners</a></li>
+        <li><a href="#Ambassadors" class="ambassadors">Our Ambassadors</a></li>
+        <li><a href="#Volunteers"  class="volunteers">Our Volunteers</a></li>
+        <li><a href="#Contact"  class="contactUs">Contact Us</a></li>
     	</ul>
 
       <div id="mysidenav" class="sidenav">
@@ -45,8 +48,10 @@
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#Educational-Partners">Partners</a></li>
           <li><a href="#Ambassadors">Our Ambassadors</a></li>
+          <li><a href="#Volunteers">Our Volunteers</a></li>
           <li><a href="#Contact">Contact Us</a></li>
       </div>
+			</ul>
 		</nav>
 	</div>
 
@@ -132,8 +137,9 @@
             </div>
             <div class="text-container">
               <h2 class = "name">Dr. Dovan Rai</h2>
-              <p class="title">Independent Researcher<br/>
-              AI in Education</p>
+              <p class="title">Research Fellow <br/>
+	      Global Institute for Interdisciplinary Studies (GIIS), Nepal <br/>   
+              </p>
             </div>
         </div>
         <div class="column">
@@ -156,16 +162,6 @@
             Amazon (Alexa)</p>
           </div>
         </div>
-        <!-- <div class="column">
-          <div class = "image-container">
-            <img src="./profiles/pratima_upretee.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class = "name">Pratima Upretee</h2>
-            <p class="title">Research Associate<br/>
-            NAAMII</p>
-          </div>
-        </div> -->
         <div class="column">
           <div class = "image-container">
             <img src="./profiles/Reshma_Shrestha.jpg" style="width: 100%">
@@ -216,23 +212,15 @@
             Leapfrog Technolgies</p>
           </div>
         </div>
-        <!-- <div class="column">
-          <div class = "image-container">
-            <img src="./profiles/shruti_shrestha.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class = "name">Shruti Shrestha</h2>
-            <p class="title">Research Assistant<br/>NAAMI</p>
-          </div> 
-        </div> -->
         <div class="column">
           <div class = "image-container">
             <img src="./profiles/smrittee_kala_panta.png" style="width: 100%">
           </div>
           <div class="text-container">
             <h2 class = "name">Dr. Smrittee Kala Panta</h2>
-            <p class="title">Director of Planning and Outreach<br/>
-            Samridhhi Argriculture Research and Development </p>
+            <p class="title">Head - Bachelor in Hospitality Management<br/>
+             Little Angles' College of Management<br>
+          </p>
           </div>
         </div>
         <div class="column">
@@ -263,20 +251,19 @@
             <img src="./profiles/Shristi_Pandey.jpeg" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Shristi Pandey</h2>
+            <h2 class="name">Dr. Shristi Pandey</h2>
             <p class="title">
               Scientist, Computational Biology <br>
               Genentech<br>
             </p>
           </div>
         </div>
-        <!--
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Shailee_Pradhan.jfif" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Shailee Pradhan</h2>
+            <h2 class="name">Dr. Shailee Pradhan</h2>
             <p class="title">
               Economics/Industry <br>
               Switzerland
@@ -285,121 +272,109 @@
         </div>
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class="name">Shakila Ghimire</h2>
-            <p class="title">Germany</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class="name">Dr. Rojina Adhikari</h2>
-            <p class="title">
-              Senior Engineer <br>
-              Qualcomm <br>
-              US
-            </p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class="name">Richa Pandey</h2>
-            <p class="title">TBD</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class="name">Sindhu Adhikari</h2>
-            <p class="title">TBD</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Shreeya_Khadka.jpeg" style="width: 100%">
           </div>
           <div class="text-container">
             <h2 class="name">Shreeya Khadka</h2>
-            <p class="title">TBD</p>
+            <p class="title">Software Engineer <br>
+            NVIDIA</p>
           </div>
         </div>
-
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Dharana_Rijal.png" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Abha Karki Rajbhandari</h2>
+            <h2 class="name">Dharana Rijal</h2>
+            <p class="title">Consultant <br>
+            World Bank, DC</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="image-container">
+            <img src="./profiles/Sakhila_Ghimire.jfif" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Dr. Sakhila Ghimire</h2>
             <p class="title">
-              Biotech/Researcher <br>
-              TBD <br>
-              US
+              Postdoctoral Researcher <br>
+              University Hospital Regensburg
             </p>
           </div>
         </div>
-
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Abha_Karki_Rajbhandari.jfif" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Darshan Karki</h2>
+            <h2 class="name">Dr. Abha Karki Rajbhandari</h2>
             <p class="title">
-              Social Science <br/>
-              Switzerland
+              Assistant Professor <br>
+              Icahn School of Medicine at Mount Sinai
             </p>
           </div>
         </div>
-
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
-          </div>
-          <div class="text-container">
-            <h2 class="name">Komal Agrawal</h2>
-            <p class="title"></p>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Manita_Raut.jpg" style="width: 100%">
           </div>
           <div class="text-container">
             <h2 class="name">Manita Raut</h2>
             <p class="title"></p>
           </div>
         </div>
-
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Neha_Shrestha.png" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Nidarshana Dhakal</h2>
+            <h2 class="name">Dr. Neha Shrestha</h2>
             <p class="title"></p>
           </div>
         </div>
         <div class="column">
           <div class="image-container">
-            <img src="./profiles/default-image.jpg" style="width: 100%">
+            <img src="./profiles/Liza_Maharjan.jpeg" style="width: 100%">
           </div>
           <div class="text-container">
-            <h2 class="name">Sarita Pandey</h2>
-            <p class="title">UK</p>
+            <h2 class="name">Liza Maharjan</h2>
+            <p class="title">
+              Internation Development | Strategy
+              <br>
+              World Bank Group
+            </p>
           </div>
         </div>
-		</div>
-  -->
+        <div class="column">
+          <div class="image-container">
+            <img src="./profiles/Nidarshana_Dhakal.jpeg" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Nidarshana Dhakal</h2>
+            <p class="title">
+              Data Scientist
+              <br>
+              Facebook
+            </p>
+          </div>
+        </div>  
+        <div class="column">
+          <div class="image-container">
+            <img src="./profiles/darshan_karki.JPG" style="width: 100%">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Darshan Karki</h2>
+            <p class="title">
+              Research Scholar
+              <br>
+              Space, Nature & Society Unit
+              <br>
+              Department of Geography
+              <br>  
+              University of Zurich
+            </p>
+          </div>
+        </div>      
   </div>
 	</div>
 
@@ -407,20 +382,33 @@
   <div id = "agenda" class="agenda">
     <br/><em/><br/><em/><br/><em/><br/><em/><br/><em/>
     <h2 class="agenda-header"> AGENDA </h2>
+      <br/><em/>
+      <div class="agenda-buttons" style="text-align: center;">
+        <a class = "agenda-button-all" onclick = "onButtonClick0()">All Sessions</a>
+        <a class = "agenda-button-session1" onclick = "onButtonClick1()" >First Session</a>
+        <a class = "agenda-button-session2" onclick = "onButtonClick2()">Second Session</a>
+        <a class = "agenda-button-session3" onclick = "onButtonClick3()">Third Session</a>
+        <a class = "agenda-button-session4" onclick = "onButtonClick4()">Fourth Session</a>
+      </div>
+      <br/><em/>
 
       <table class = "agenda-table">
           <tr style="color: #ecf0f1; background: #e98300;">
               <th class = "date-section">
-                <h1 style="font-size: 24px">Date</h1>
+                <h1 style="font-size: 24px">Date and Time</h1>
               </th>
               <th class = "talk-section">
                 <h1 style="font-size: 24px">Talk</h1>
               </th>             
           </tr>
-          <tr style="color: #646161" >
-              <td class = "date-section">
-                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 PM CST</a></h2>    
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 AM NPT</a></h2>
+<!--------------------------------------------------------------------------------->
+<!----------------------------------- Session1 ------------------------------------>
+<!--------------------------------------------------------------------------------->
+        <div>
+          <tr style="color: #646161;" class= "session1">
+              <td  class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 AM NPT</a></h2>
               </td>
               <td class = "talk-section">
                 <h2> Welcome and Opening Remarks | Standford Video </h2>
@@ -428,435 +416,385 @@
                 Kathmandu </h3>
               </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session1">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:30 PM CST</a></h2>    
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:15 AM NPT</a></h2>
-            </td>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:30 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:15 AM NPT</a></h2>
+              </td>
             <td class = "talk-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Keynote </h2>
               <h3> Shelly Darnutzer  <br/>
               WIDS Program Manager | WiDS Worldwide Team </h3>
             </td>             
           </tr>
-          <tr style="color: #646161">
-            <td class="date-section">
-                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">10:05 PM CST</a></h2>    
-                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:50 AM NPT</a></h2>
+          <tr style="color: #646161" class= "session1">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 AM NPT</a></h2>
             </td>
             <td class="talk-section">
-              <h2>Beyond Keywords | What matters in Semantic Query Understanding
+              <h2>Role of women in data science and reflect the case of Geoinformatics education
               </h2>
-              <h3>Dr. Archana Bhattarai, Relevance Engineer <br>
-                Apple, US
+              <h3>Dr. Reshma Shrestha <br> Assistant Professor|
+                Kathmandu University (KU)
               </h3>
             </td>
           </tr>
-        <tr style="color: #646161" >
-          <td class = "date-section">
-            <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">10:30 PM CST</a></h2>    
-            <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:15 AM NPT</a></h2>
-          </td>
+        <tr style="color: #646161"  class= "session1">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">10:15 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:00 AM NPT</a></h2>
+            </td>
           <td class = "talk-section">
-            <h2 style="font-weight: bold;color: #00b140;font-size: 16px">The migration of Nepali women for domestic work to the Gulf countries and the impact of Nepal government's policies banning out-migration for domestic work
+            <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION
             </h2>
-            <h3> Sayam Moktan, PhD candidate<br/>
-              Department of Political Science at University of Cincinnati</h3>
+            <h3> 
+                   Sayam Moktan <br/>
+                   Manita Raut <br/> 
+                   <br/>
+                  <strong>Moderator: </strong>
+                  Astha Sharma <br/>
+              </h3>
           </td>             
           </tr>
 
-          <tr style="color: #646161" >
+          <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">10:50 PM CST</a></h2>    
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:35 AM NPT</a></h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:05 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:50 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>NETWORKING</h2>
+              <h2>NETWORKING SESSION</h2>
             </td>             
           </tr>
 
-          <tr style="color: #646161">
-            <td class="date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:15 PM CST</a></h2>    
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:00 AM NPT</a></h2>
+          <tr style="color: #646161"  class= "session1">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:25 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:10 AM NPT</a></h2>
             </td>
             <td class="talk-section">
-              <h2>Gender mainstreaming in Data Science | Some examples from field based research in Nepal
+              <h2>TBD
               </h2>
-              <h3>Dr. Smrittee Kala Panta, Director of Planning and Outreach <br>
-                Samridhhi Argriculture Research and Development, Nepal
+              <h3>Dr. Rojina Adhikary <br>
+                Senior Engineer | Qualcomm
               </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:40 PM CST</a></h2>    
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:25 AM NPT</a></h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:55 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:40 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>Role of women in data science and reflect the case of Geoinformatics education </h2>
-              <h3>Dr. Reshma Shrestha  <br/>
-              Assistant Professor | Kathmandu University (KU)</h3>
+              <h2>Prospects of data science for revival of  tourism and hospitality industry in COVID-19 context in Nepal</h2>
+              <h3>Dr. Smrittee Kala Panta<br/>
+              Director of Planning and Outreach <br> Samridhhi Argriculture Research and Development</h3>
             </td>             
           </tr>
-
-          <!--
-          <tr style="color: #646161" >
+        </div>
+<!--------------------------------------------------------------------------------->
+<!----------------------------------- Session2 ------------------------------------>
+<!--------------------------------------------------------------------------------->
+        <div id = "session2">
+          <tr style="color: #646161"  class= "session2">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2>8:15 AM to 8:35 AM CST</h2>
-              <h2>7:00 PM to 7:20 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>Visual Analytics of High-dimensional Data with Self-Organizing Maps </h2>
-              <h3>Asmita Bhattarai, PhD Candidate | GIS Analyst<br/>
-                University of Utah</h3>
+              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
+              <h3>Dr. Elina Pradhan <br/>
+               Economist | World Bank Group </h3>
             </td>             
           </tr>
-          
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2>8:40 AM to 9:00 AM CST</h2>
-              <h2>7:25 PM to 7:45 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>Data-driven solutions in Global Development: Trends, Possibilities and Limitations </h2>
-              <h3>Rubeena Mahato<br/>
-                Development Policy Expert | UNICEF</h3>
+              <h2>Data-driven solutions in Global Development: Trends, Possibilities and Limitations</h2>
+              <h3>Ms. Rubeena Mahato <br/>
+               Development Policy Expert | UNICEF </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2 > 9:05 AM to 9:15 AM CST</h2>
-              <h2> 7:55 PM to 8:05 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:05 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:50 AM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>NETWORKING SESSION</h2>
+            </td>             
+          </tr>
+          <tr style="color: #646161" class= "session2">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:25 AM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:10 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section" >
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION: Data Science and Policy
+              </h2>
+              <h3> 
+                  Dr. Shailee Pradhan <br/>
+                  Dharana Rijal <br/>
+                  Liza Maharjan <br/>
+                  <br/>
+                  <strong>Moderator: </strong>
+                  Asmita Bhattarai <br/>
+              </h3>
+            </td>             
+          </tr>
+          <tr style="color: #646161" class= "session2">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:15 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:00 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>SPEED MENTORING</h2>
+              <h3> 
+                Asmita Bhattarai <br/>
+              </h3>
+            </td>             
+          </tr>
+          <tr style="color: #646161" class= "session2">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:35 AM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:20 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION: Data Science and Policy
+              </h2>
+              <h3> 
+                  Komal Agrawal <br/>
+                  Shreeya Khadka <br/>
+                  Nidarshana Dhakal <br/>
+                  <br/>
+                  <strong>Moderator: </strong>
+                  Sangita Sharma <br/>
+              </h3>
+            </td>             
+          </tr>
+          <tr style="color: #646161" class= "session2">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">12:15 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:00 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>Visual Analytics of High-dimensional Data with Self-Organizing Maps</h2>
+              <h3>Ms. Asmita Bhattarai<br/>
+               PhD Candidate | GIS Analyst | University of Utah </h3>
+            </td>             
+          </tr>
+        </div>
+<!--------------------------------------------------------------------------------->
+<!----------------------------------- Session3 ------------------------------------>
+<!--------------------------------------------------------------------------------->
+        <div id = "session3">
+          <tr style="color: #646161" class= "session3">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 AM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>Beyond Keywords, What matters in Semantic Query Understanding</h2>
+              <h3>Dr. Archana Bhattarai<br/>
+               Relevance Engineer | Apple </h3>
+            </td>             
+          </tr>
+          <tr style="color: #646161" class= "session3">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 AM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>Applications of Artificial Intelligence for Social Good</h2>
+              <h3>Dr. Jwala Dhamala<br/>
+               Research Scientist | Amazon (Alexa) </h3>
+            </td>
+          </tr>
+          <tr style="color: #646161" class= "session3">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:05 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:50 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
               <h2>SPEED MENTORING</h2>
             </td>             
           </tr>
-
-          <tr style="color: #646161" >
-            <th class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2 > 9:20 AM to 9:40 AM CST</h2>
-              <h2> 8:10 PM to 8:30 PM NPT</h2>
-            </th>
-            <th class = "talk-section">
-              <h2>TBD</h2>
-              <h3>Shailee Pradhan <br>
-              Economics/Industry, Switzerland</h3>
-            </th>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <th class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2 > 9:45 AM to 10:05 AM CST</h2>
-              <h2> 8:35 PM to 8:55 PM NPT</h2>
-            </th>
-            <th class = "talk-section">
-              <h2>TBD</h2>
-              <h3>Shakila Ghimire <br>
-              Germany</h3>
-            </th>             
-          </tr>
-          
-          <tr style="color: #646161" >
-              <td class = "date-section">
-                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-                <h2> 10:10 AM to 10:25 AM CST</h2>
-                <h2> 9:00 PM to 9:15 PM NPT</h2>
-              </td>
-              <td class = "talk-section">
-                <h2>NETWORKING</h2>
-              </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <th class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2 > 10:30 AM to 10:50 AM CST</h2>
-              <h2> 9:20 PM to 9:40 PM NPT</h2>
-            </th>
-            <th class = "talk-section">
-              <h2></h2>
-              <h3>Dr. Rojina Adhikari, Senior Engineer <br>
-              Qualcomm, US</h3>
-            </th>             
-          </tr>
-
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 10:30 AM to 11:15 AM CST</h2>
-              <h2> 9:20 PM to 10:05 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:25 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:10 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>PANEL DISCUSSION</h2>
-              <h3>Richa Pandey, Sindhu Adhikari, Shreeya Khadka, Sindhu Adhikari <br>
-                TBD</h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 9:15 PM to 9:30 PM CST</h2>
-              <h2> 8:00 AM to 8:15 AM NPT</h2>
+              <h2>Applications of NLP and ML in various domains</h2>
+              <h3>Dr. Sabita Acharya<br/>
+               R&D Scientist, NLP | Procter & Gamble </h3>
             </td>
-            <td class = "talk-section">
-              <h2>Applications of NLP and ML in various domains </h2>
-              <h3>Dr. Sabita Acharya, R&D Scientist | NLP <br>
-                Procter & Gamble, US</h3>
-            </td>             
           </tr>
-
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 9:35 PM - 10:55 PM  CST</h2>
-              <h2> 8:20 AM to 8:40 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>  TBD</h2>
-              <h3>Abha Karki Rajbhandari <br>
-                Biotech/Researcher | TBD</h3>
-            </td>             
-          </tr>
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:00 PM - 11:15 PM CST</h2>
-              <h2> 8:45 AM to 9:00 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>SPEED MENTORING SESSION</h2>
-              <h3>Elina Pradhan </h3>
-            </td>             
-          </tr>
-
-
-          
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11: 20 PM - 11:40 PM CST</h2>
-              <h2> 9:05 AM to 9:20 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Applications of Artificial Intelligence for Social Good</h2>
-              <h3>Dr. Jwala Dhamala, Research Scientist <br>
-                Amazon (Alexa), US
-                </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:45 PM - 12:05 AM CST</h2>
-              <h2> 9:25 AM to 9:45 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
-              <h3>Elina Pradhan, Economist <br>
-              World Bank Group, US 
-            </h3>
-            </td>             
-          </tr>
-
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:45 PM - 12:05 AM CST</h2>
-              <h2> 9:25 AM to 9:45 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
-              <h3>Elina Pradhan, Economist <br>
-              World Bank Group, US 
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:45 PM - 12:05 AM CST</h2>
-              <h2> 9:25 AM to 9:45 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
-              <h3>Elina Pradhan, Economist <br>
-              World Bank Group, US 
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:45 PM - 12:05 AM CST</h2>
-              <h2> 9:25 AM to 9:45 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
-              <h3>Elina Pradhan, Economist <br>
-              World Bank Group, US 
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:45 PM - 12:05 AM CST</h2>
-              <h2> 9:25 AM to 9:45 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Data Generation and Use for Health Policy Design and Implementation</h2>
-              <h3>Elina Pradhan, Economist <br>
-              World Bank Group, US 
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:15 PM - 11:35 PM CST</h2>
-              <h2> 10:00 AM to 10:20 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>NETWORKING SESSION</h2>
-              <h3>Dr. Elina Pradhan, Dr. Jwala Dhamala, Dr. Sabita Acharya, Abha RajBhandari
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 24 </h2>
-              <h2> 11:40 PM - 12:00 PM CST</h2>
-              <h2> 10:05 AM to 10:25 AM NPT</h2>
-            </td>
-            <td class = "talk-section">
-              <h2>Role of Data Science in Project Management Metrics</h2>
-              <h3>Sangita Sharma, Project Manager<br>
-                Leapfrog Technolgies, Nepal
-            </h3>
-            </td>             
-          </tr>
-
-          <tr style="color: #646161" >
-            <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 8:15 AM - 8:35 AM CST</h2>
-              <h2> 7:00 PM to 7:20 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:55 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:40 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
               <h2>AI in Education</h2>
-              <h3>Dr. Dovan Rai, Independent Researcher<br>
-                AI in Education, Nepal
-            </h3>
-            </td>             
+              <h3>Dr. Dovan Rai<br/>
+               Independent Researcher | AI in Education </h3>
+            </td>
           </tr>
-
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2>8:40 AM - 9:00 AM CST</h2>
-              <h2> 7:25 PM to 7:45 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:25 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:10 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>Data science for evidence-based decision making in medicine</h2>
-              <h3>Dr. Samrachana Adhikari, Assistant Professor of Biostatistics<br>
-                School of Medicine, New York University, US
-            </h3>
-            </td>             
+              <h2>Role of Data Science in Project Management Metrics</h2>
+              <h3>Sangita Sharma<br/>
+               Project Manager | Leapfrog Technologies </h3>
+            </td>
           </tr>
-
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 9:05 AM to 9:20 AM CST</h2>
-              <h2> 7:50 PM to 8:05 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:45 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:30 AM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>NETWORKING</h2>
-            </td>             
+              <h2>Data in Qualitative Research: Experiences in Academia and Beyond</h2>
+              <h3>Darshan Karki<br/>
+               PhD candidate | Department of Geography | University of Zurich </h3>
+            </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 9:20 AM to 9:40 AM CST</h2>
-              <h2> 8:05 PM to 8:25 PM NPT</h2>
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">12:15 PM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:00 AM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>POSTER PRESENTATION</h2>
+            </td>
+          </tr>
+        </div>
+<!--------------------------------------------------------------------------------->
+<!----------------------------------- Session4 ------------------------------------>
+<!--------------------------------------------------------------------------------->
+        <div id = "session4">
+            <tr style="color: #646161" class= "session4">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2>Brain and Body Interactions in Stress and Energy Metabolism</h2>
+              <h3>Dr. Abha Karki Rajbhandari<br/>
+               Assitant Professor | Mount Sinai School of Medicine </h3>
+            </td>
+          </tr>
+          <tr style="color: #646161" class= "session4">
+            <td class = "date-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 AM CST, USA</a></h2>    
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
               <h2>Towards understanding the molecular basis of emotional memories</h2>
-              <h3>Dr. Prerana Shrestha, Assistant Professor<br>
-                University of New York at Stony Brook, US
-            </h3>
-            </td>             
+              <h3>Dr. Prerana Shrestha<br/>
+               Assitant Professor | University of New York at Stony Brook </h3>
+            </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session4">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 9:45 AM to 10:05 AM CST</h2>
-              <h2> 8:30 PM to 8:50 PM NPT</h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">10:15 AM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:00 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>TBD</h2>
-              <h3>Darshan Karki<br>
-                Social Science | Switzerland
-            </h3>
-            </td>             
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION: Data Science in Biotech and its prospects in Nepal
+              </h2>
+              <h3> 
+                  Dr. Neha Shrestha <br/>
+                  Dr. Shakila Ghimire <br/>
+                  <br/>
+                  <strong>Moderator: </strong>
+                  TBD <br/>
+              </h3>
+            </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session4">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 10:10 AM - 10:55 AM CST</h2>
-              <h2> 8:55 PM to 9:40 PM NPT</h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">11:05 AM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:50 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>PANEL DISCUSSION</h2>
-            </td>             
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">SPEED MENTORING & NETWORKING
+              </h2>
+              <h3> 
+                Rubeena <br />
+                Dr.Elina Pradhan <br />
+              </h3>
+            </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session4">
             <td class = "date-section">
-              <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-              <h2> 11:00 AM - 11:20 AM CST</h2>
-              <h2> 9:45 PM to 10:05 PM NPT</h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">11:35 AM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:20 PM NPT</a></h2>
             </td>
             <td class = "talk-section">
-              <h2>TBD</h2>
-              <h3>Sarita Pandey<br>
-                UK
-            </h3>
-            </td>             
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION: Challenges of Doing Data Science in Nepal
+              </h2>
+              <h3> 
+                Richa Pandey <br/>
+                Bonny Pradhan <br/> 
+                <br/> 
+                <strong>Moderator: </strong> TBD <br/>
+              </h3>
+            </td>
           </tr>
-          <tr style="color: #646161" >
-              <td class = "date-section">
-                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> July 25 </h2>
-                <h2>11:25 AM - 11:45 AM CST</h2>
-                <h2>10:10 PM to 10:30 PM NPT</h2>
-              </td>
-              <td class = "talk-section">
-                <h2> CLOSING REMARKS </h2>
-                <h3> Reecha Khanal  <br/>
-                 Software Engineer | Gainwell Technologies </h3>
-              </td>             
+          <tr style="color: #646161" class= "session4">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">12:25 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:10 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">Navigating Human Health and Disease Through Cell Atlases
+              </h2>
+              <h3> 
+                Dr. Shristi Pandey <br/>
+                Scientist | Genentech
+              </h3>
+            </td>
           </tr>
-        -->
+          <tr style="color: #646161" class= "session4">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">12:55 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:40 PM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">Data science for evidence-based decision making in medicine
+              </h2>
+              <h3> 
+                Dr. Samrachana Adhikari <br/>
+                Assistant Professor of Biostatistics | School of Medicine, New York University
+              </h3>
+            </td>
+          </tr>
+          <tr style="color: #646161" class= "session4">
+            <td class = "date-section">
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, July 25 <a style="font-weight: bold;font-size: 16px;color: #000000">1:15 PM CST, USA</a></h2>
+                <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Sunday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 12:00 AM NPT</a></h2>
+            </td>
+            <td class = "talk-section">
+              <h2 style="font-weight: bold;color: #00b140;font-size: 16px">CLOSING REMARKS
+              </h2>
+              <h3> 
+                Reecha Khanal <br/>
+                Software Engineer | Gainwell Technologies LLC
+              </h3>
+            </td>
+          </tr>
+        </div>
+
       </table>
-      <div style="text-align: center;font-style: normal;">
-          <br/>
-          <br/>
-          <a>Agenda In Progress ...</a>
-      </div>
   </div>
 
 
@@ -948,7 +886,261 @@
     </div>
   </div>
 
+  <!-- Volunteers Section-->
+  <div id = "Volunteers" class = "volunteer-header">
+    <br/><em/><br/><em/><br/><em/><br/><em/>
+    
+    <h2 style = "font-style: normal; font-size:30px; color:white; background-color: #75787B; padding: 20px; text-align: center"> VOLUNTEERS </h2>
+    <br><em>
 
+    <div class = "volunteers">
+      <div class="row">
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/srishti_poudel.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Srishti Poudel</h2>
+            <p class="title">Management, Content, Publicity<br/>
+                    EE 3<sup>rd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/amisha.jpeg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Amisha Dahal</h2>
+            <p class="title">Management, Publicity<br/>
+                    CS 4<sup>th</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/saakar_KC.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Saakar KC</h2>
+            <p class="title">Management<br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/shreela_sapkota.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Shreela Sapkota</h2>
+            <p class="title">Design<br/>
+                    CE 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/aawishkar_tiwari.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Aawishkar Tiwari</h2>
+            <p class="title">Design<br/>
+                    CE 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/sadikshya_pokharel.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Sadikshya Pokharel</h2>
+            <p class="title">Design<br/>
+                    CE 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/abha_acharya.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Abha Acharya </h2>
+            <p class="title">Social media<br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/angelina_ghimire.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Angelina Ghimire</h2>
+            <p class="title">Social Media, Content, Communication<br/>
+                    CS 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/sampada_deoju.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Sampada Deoju</h2>
+            <p class="title">Social media , Publicity<br/>
+                    CS 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/prekshya_Dawadi.jpeg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Prekshya Dawadi</h2>
+            <p class="title">Communication<br/>
+                    CS 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/anisha_dhakal.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Anisha Dhakal</h2>
+            <p class="title">Content creation, Note taking<br/>
+                    CE 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/anjali_prajapati.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Anjali Prajapati</h2>
+            <p class="title">Web<br/>
+                    CE 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/saurav_ghimire.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Saurav Ghimire</h2>
+            <p class="title">Web<br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/avaya_bajracharya.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Avaya Bajracharya</h2>
+            <p class="title">Web<br/>
+                    CE 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/sagar_raj.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Sagar Raj Thapaliya</h2>
+            <p class="title">Web<br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/anish_manandhar.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Anish Manandhar</h2>
+            <p class="title">Web<br/>
+                    CE 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/anurag.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Anurag Timilsina</h2>
+            <p class="title">Web<br/>
+                    CE 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/nibika_khatiwada.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Nibika Khatiwada</h2>
+            <p class="title">Publicity <br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/dikshya_poudel.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Dikshya Poudel</h2>
+            <p class="title">Publicity <br/>
+                    CS 2<sup>nd</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="image-container">
+            <img src="./volunteers/sanskriti_deoju.jpg" style="width: 200px; height: 200px;">
+          </div>
+          <div class="text-container">
+            <h2 class="name">Sanskriti Deoju</h2>
+            <p class="title">Publicity <br/>
+                    CM 1<sup>st</sup> year<br>
+              Kathmandu University</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 	<!-- Contact Us -->
 	<div id = "Contact" class="contact-header">
     <br/><em/><br/><em/>
@@ -986,8 +1178,9 @@
 </body>
 
 <script>
+
     // Set the date we're counting down tos
-    var countDownDate = new Date("July 23, 2021 15:37:25").getTime();
+    var countDownDate = new Date("July 23, 2021 21:15:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -1022,6 +1215,7 @@
         document.getElementById("seconds").innerHTML = seconds;
       }    
     }, 1000);
+
 </script>
 
 </html>
