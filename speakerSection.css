@@ -15,9 +15,8 @@
 }
 
 .row{
-	width: 75%;
+	width: 80%;
 	margin: auto;
-  /* display: flex; */
 	align-items: center;
 	text-align: center;
 	justify-content: center;
@@ -29,22 +28,12 @@
   display: table;
   clear: both;
 }
-
-/* Responsive columns - one column layout on small screens*/
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
 /* Float four columns side by side */
 /* Style the picture/column cards */
 .column {
   float: left;
   width: 20%;
-  padding: 10px;
+  padding: 14px;
   text-align: center;
   background-color: white;
   font-style: normal;
@@ -52,7 +41,7 @@
 }
 
 .text-container{
-    padding: 5px;
+  padding: 5px;
 }
 
 .name{
@@ -64,6 +53,21 @@
   font-style:normal;
   font-family: "Helvetica";
   line-height: 20px;
-  font-size: 14px;
+  font-size: 15px;
   color: #231F20;
+}
+/* Responsive columns - one column layout on small screens*/
+@media screen and (max-width: 768px) {
+   .row {
+     display: grid;
+     grid-template-columns: auto auto auto;
+   }
+
+  .column {
+    width: 90%;
+    padding: 20px;
+    display: block;
+    margin-left: -5vh;
+    margin-bottom: 20px;
+  }
 }

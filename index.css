@@ -1,4 +1,8 @@
 /* CSS for the whole body */
+* {
+  scroll-behavior: smooth;
+}
+
 body {
 	margin: 0px;
   font-family: "Helvetica";
