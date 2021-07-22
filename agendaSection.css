@@ -84,4 +84,88 @@
   .talk-section {
     padding-left: 12px;
   }
+  
+}
+
+.agenda-button-all{
+  background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+  font-style: normal;
+}
+
+.agenda-button-session1{background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+  font-style: normal;
+}
+
+
+.agenda-button-session2{background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+  font-style: normal;
+}
+
+.agenda-button-session3{
+  background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+ font-style: normal;}
+
+.agenda-button-session4{
+  background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+  font-style: normal;
 }
