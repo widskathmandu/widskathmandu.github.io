@@ -1,0 +1,12 @@
+/* CSS for the whole body */
+body {
+	margin: 0px;
+  font-family: "Helvetica";
+}
+
+.contact-header{
+  position: relative;
+  top: 15px;
+  margin: auto;
+  text-align: center;
+}
