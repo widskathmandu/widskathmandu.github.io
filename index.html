@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="agendaSection.css"/>
   <link rel="stylesheet" href="educationalPartnersSection.css"/>
   <link rel="stylesheet" href="ambassadorsSection.css"/>
+  <script type="text/javascript" src="agendaButton.js"></script>
   <script
     src="https://kit.fontawesome.com/3fdf0f105a.js"
     crossorigin="anonymous">
@@ -340,6 +341,15 @@
   <div id = "agenda" class="agenda">
     <br/><em/><br/><em/><br/><em/><br/><em/><br/><em/>
     <h2 class="agenda-header"> AGENDA </h2>
+      <br/><em/>
+      <div class="agenda-buttons" style="text-align: center;">
+        <a class = "agenda-button-all" onclick = "onButtonClick0()">All Sessions</a>
+        <a class = "agenda-button-session1" onclick = "onButtonClick1()" >First Session</a>
+        <a class = "agenda-button-session2" onclick = "onButtonClick2()">Second Session</a>
+        <a class = "agenda-button-session3" onclick = "onButtonClick3()">Third Session</a>
+        <a class = "agenda-button-session4" onclick = "onButtonClick4()">Fourth Session</a>
+      </div>
+      <br/><em/>
 
       <table class = "agenda-table">
           <tr style="color: #ecf0f1; background: #e98300;">
@@ -350,13 +360,12 @@
                 <h1 style="font-size: 24px">Talk</h1>
               </th>             
           </tr>
-
 <!--------------------------------------------------------------------------------->
 <!----------------------------------- Session1 ------------------------------------>
 <!--------------------------------------------------------------------------------->
-        <div class = "session1">
-          <tr style="color: #646161" >
-              <td class = "date-section">
+        <div>
+          <tr style="color: #646161;" class= "session1">
+              <td  class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 PM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 AM NPT</a></h2>
               </td>
@@ -366,7 +375,7 @@
                 Kathmandu </h3>
               </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session1">
             <td class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:30 PM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:15 AM NPT</a></h2>
@@ -377,7 +386,7 @@
               WIDS Program Manager | WiDS Worldwide Team </h3>
             </td>             
           </tr>
-          <tr style="color: #646161">
+          <tr style="color: #646161" class= "session1">
             <td class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 PM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 AM NPT</a></h2>
@@ -390,7 +399,7 @@
               </h3>
             </td>
           </tr>
-        <tr style="color: #646161" >
+        <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">10:15 PM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:00 AM NPT</a></h2>
@@ -408,7 +417,7 @@
           </td>             
           </tr>
 
-          <tr style="color: #646161" >
+          <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:05 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:50 AM NPT</a></h2>
@@ -418,7 +427,7 @@
             </td>             
           </tr>
 
-          <tr style="color: #646161">
+          <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:35 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:20 AM NPT</a></h2>
@@ -431,7 +440,7 @@
               </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161"  class= "session1">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 23 <a style="font-weight: bold;font-size: 16px;color: #000000">11:55 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:40 AM NPT</a></h2>
@@ -446,8 +455,8 @@
 <!--------------------------------------------------------------------------------->
 <!----------------------------------- Session2 ------------------------------------>
 <!--------------------------------------------------------------------------------->
-        <div class = "session2">
-          <tr style="color: #646161" >
+        <div id = "session2">
+          <tr style="color: #646161"  class= "session2">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 AM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 PM NPT</a></h2>
@@ -458,7 +467,7 @@
                Economist | World Bank Group </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 AM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 PM NPT</a></h2>
@@ -469,7 +478,7 @@
                Development Policy Expert | UNICEF </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:05 AM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:50 AM NPT</a></h2>
@@ -478,12 +487,12 @@
               <h2>NETWORKING SESSION</h2>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:25 AM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:10 PM NPT</a></h2>
             </td>
-            <td class = "talk-section">
+            <td class = "talk-section" >
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px">PANEL DISCUSSION: Data Science and Policy
               </h2>
               <h3> 
@@ -496,7 +505,7 @@
               </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:15 AM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:00 PM NPT</a></h2>
@@ -505,7 +514,7 @@
               <h2>SPEED MENTORING</h2>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:35 AM CST, USA</a></h2>
                 <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:20 PM NPT</a></h2>
@@ -523,7 +532,7 @@
               </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session2">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">12:15 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:00 PM NPT</a></h2>
@@ -538,8 +547,8 @@
 <!--------------------------------------------------------------------------------->
 <!----------------------------------- Session3 ------------------------------------>
 <!--------------------------------------------------------------------------------->
-        <div class = "session3">
-          <tr style="color: #646161" >
+        <div id = "session3">
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:15 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:00 AM NPT</a></h2>
@@ -550,7 +559,7 @@
                Relevance Engineer | Apple </h3>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">9:45 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:30 AM NPT</a></h2>
@@ -561,7 +570,7 @@
                Research Scientist | Amazon (Alexa) </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Friday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:05 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 8:50 AM NPT</a></h2>
@@ -570,7 +579,7 @@
               <h2>SPEED MENTORING</h2>
             </td>             
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:25 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:10 AM NPT</a></h2>
@@ -581,7 +590,7 @@
                R&D Scientist, NLP | Procter & Gamble </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">10:55 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 9:40 AM NPT</a></h2>
@@ -592,7 +601,7 @@
                Independent Researcher | AI in Education </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:25 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:10 AM NPT</a></h2>
@@ -603,7 +612,7 @@
                Project Manager | Leapfrog Technologies </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">11:45 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 10:30 AM NPT</a></h2>
@@ -614,7 +623,7 @@
                PhD candidate | Department of Geography | University of Zurich </h3>
             </td>
           </tr>
-          <tr style="color: #646161" >
+          <tr style="color: #646161" class= "session3">
             <td class = "date-section">
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, July 24 <a style="font-weight: bold;font-size: 16px;color: #000000">12:15 PM CST, USA</a></h2>    
               <h2 style="font-weight: bold;color: #00b140;font-size: 16px"> Saturday, Shrawan 9 <a style="font-weight: bold;font-size: 16px;color: #000000"> 11:00 AM NPT</a></h2>
@@ -627,7 +636,7 @@
 <!--------------------------------------------------------------------------------->
 <!----------------------------------- Session4 ------------------------------------>
 <!--------------------------------------------------------------------------------->
-        <div class = "session4">
+        <div id = "session4">
         </div>
 
       </table>
@@ -747,6 +756,7 @@
 </body>
 
 <script>
+
     // Set the date we're counting down tos
     var countDownDate = new Date("July 23, 2021 21:15:00").getTime();
 
@@ -783,6 +793,7 @@
         document.getElementById("seconds").innerHTML = seconds;
       }    
     }, 1000);
+
 </script>
 
 </html>
